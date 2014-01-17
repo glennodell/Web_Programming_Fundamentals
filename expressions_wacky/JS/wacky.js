@@ -15,7 +15,7 @@ var bossHit =prompt("number of greatness \n 1-20 please");
 
 alert("The tiny humans name is " + name + " huh");
 
-var bad = health + armor;
+var bad = (health + armor);
 
 var good = hit;
 
