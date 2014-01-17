@@ -1,4 +1,3 @@
-// JavaScript Document
 // Glenn O'Dell 1-16-2014 expressions_wacky
 
 var name = prompt("What is your name mortal??");
@@ -20,6 +19,7 @@ alert("The tiny humans name is " + name + "huh \n and its a " + class + " I see"
 var bad = health + armor;
 
 var good = hit;
+
 alert("your total health is " + bad + " with your armor and you deal " + good +" damage a hit.");
 
 var boss = ("The creature has " + bossH + " health, and hits for " + bossHit + " a hit");
