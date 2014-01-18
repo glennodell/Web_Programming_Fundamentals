@@ -30,4 +30,4 @@ var itDie = bossH / hit;
 
 console.log("it will take the boss " + uDie + " to kill you, or if he lets you " + itDie + " turns for you to kill it.");
 
-alert("You are probably going to die sorry " + name ". \n But do not worry mortal change the numbers and try agian.")
+alert("You are probably going to die sorry " + name + ". \n But do not worry mortal change the numbers and try agian.")
