@@ -12,7 +12,7 @@ var bossH =prompt("Number of epicness \n any number please");
 
 var bossHit =prompt("number of greatness \n any number please");
 
-var THP = health + armor
+var THP = (health + armor)
 
 var boss = ("The creature has " + bossH + " health, and hits for " + bossHit + " a hit");
 
