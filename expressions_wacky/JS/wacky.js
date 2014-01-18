@@ -14,11 +14,7 @@ var bossHit =prompt("number of greatness \n any number please");
 
 alert("The tiny humans name is " + name + " huh");
 
-var Total = [health, armor];
-
-var THP = Total[0]+[1];
-
-	alert("your total health is " + THP + " with your armor and you deal " + hit +" damage a hit.");
+alert("your total health is " + health + armor + " with your armor and you deal " + hit +" damage a hit.");
 
 var boss = ("The creature has " + bossH + " health, and hits for " + bossHit + " a hit");
 
