@@ -25,9 +25,9 @@ alert("your total health is " + THP + " with your armor and you deal " + good +"
 
 var boss = ("The creature has " + bossH + " health, and hits for " + bossHit + " a hit");
 
-var uDie = bad / bossHit;
+var uDie = THP / bossHit;
 
 var itDie = bossH / hit;
 
-alert("it will take the boss " + uDie + " to kill you, or if he lets you " + itDie + " turns for you to kill it.");
+console.log("it will take the boss " + uDie + " to kill you, or if he lets you " + itDie + " turns for you to kill it.");
 
