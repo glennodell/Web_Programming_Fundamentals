@@ -6,3 +6,8 @@ var tank = prompt("how many gallons of fuel can your car/truck hold")
 var mpg = prompt("about how many miles per gallon")
 
 var cost = prompt("how much is a gallon of gas")
+
+var distance = tank * mpg
+
+var pertank = cost * tank
+
