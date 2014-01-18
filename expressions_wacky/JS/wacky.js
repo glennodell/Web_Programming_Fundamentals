@@ -16,7 +16,7 @@ alert("The tiny humans name is " + name + " huh");
 
 var Total = [health, armor];
 
-var THP = Total [0] +[1];
+var THP = Total [0] + [1];
 
 var good = hit;
 
