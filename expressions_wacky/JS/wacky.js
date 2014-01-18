@@ -12,6 +12,8 @@ var bossH =prompt("Number of epicness \n any number please");
 
 var bossHit =prompt("number of greatness \n any number please");
 
+var THP = health + armor
+
 alert("The tiny humans name is " + name + " huh");
 
 alert("your total health is " + health + armor + " with your armor and you deal " + hit +" damage a hit.");
