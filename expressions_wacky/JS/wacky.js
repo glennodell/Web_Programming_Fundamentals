@@ -20,6 +20,8 @@ var uDie = THP / bossHit;
 
 var itDie = bossH / hit;
 
+alert("You have a total of " + THP + "hit points. \n and the boss has a total of " + bossH + " hit points
+
 console.log("it will take the boss " + uDie + " to kill you, or if he lets you " + itDie + " turns for you to kill it.");
 
 alert("You are probably going to die sorry " + name + ". \n But do not worry mortal change the numbers and try agian.")
