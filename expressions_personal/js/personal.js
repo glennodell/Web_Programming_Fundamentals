@@ -14,3 +14,5 @@ var pertank = cost * tank
 alert("You can go " + distance + " per tank of fuel \n aEach tank will cost you " + pertank +".")
 
 var howFar = prompt("How many miles is your trip?")
+
+var howMany = howFar / distance
