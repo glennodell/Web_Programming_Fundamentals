@@ -11,3 +11,4 @@ var distance = tank * mpg
 
 var pertank = cost * tank
 
+alert("You can go " + distance + "per tank of fuel \n aEach tank will cost you " + pertank +".
