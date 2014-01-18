@@ -16,9 +16,7 @@ alert("The tiny humans name is " + name + " huh");
 
 var Total = [health, armor];
 
-var THP = Total [0] + [1];
-
-
+var THP = Total[0] + [1];
 
 	alert("your total health is " + THP + " with your armor and you deal " + hit +" damage a hit.");
 
