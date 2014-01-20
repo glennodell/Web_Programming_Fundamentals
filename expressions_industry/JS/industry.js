@@ -18,5 +18,7 @@ var totalM = totalC * number[2]
 
 var mice = totalC
 
-console.log("You will need a total of " + totalC + " computers, and a total of " + totalM + " monitors to complete these rooms. Also you will need at total of " + mice +")
+var powerCables = totatlM + totalC
+
+console.log("You will need a total of " + totalC + " computers, and a total of " + totalM + " monitors to complete these rooms. Also you will need at total of " + mice + " mice and keyboards you will also need " + powerCables + " powercables one for each computer and on for each monitor.)
 
