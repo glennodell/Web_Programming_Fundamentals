@@ -37,19 +37,19 @@ if(damage <= 50){
 var hitPoints = prompt("Your health \n 1-200")
 
 console.log("Your heath is " + hitPoints + ".")
+
 var Enemy = prompt("Do you want to fight a skeleton or a zombie")
 
+if(Enemy == "Skeleton"){
+	console.log("The Skeleton has 300 hit points")
+	} 
 if(Enemy == "Skeleton" && weapon == "warhammer"){
 	console.log("Your warhammer does X2 damage")
 }
+
 if(Enemy == "zombie" && weapon == "Sword"){
 	console.log("Your sword does X2 damage")
 }
 
-var zombie = 400
 
-var skeleton = 300
 
-var perHit = damage / Enemy
-
-console.log("perHit")
