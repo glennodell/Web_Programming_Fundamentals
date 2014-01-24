@@ -21,7 +21,7 @@ if(weapon == "warhammer"){
 	
 	}
 	
-var damage = prompt("your " + weapon + " does how much damage? /n 1-100")
+var damage = prompt("your " + weapon + " does how much damage? \n 1-100")
 
 alert("You do " + damage + " Holy damage per hit")
 
