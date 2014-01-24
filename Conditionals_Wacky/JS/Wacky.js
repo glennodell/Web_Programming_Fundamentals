@@ -23,10 +23,11 @@ if(weapon == "warhammer"){
 	
 var damage = prompt("your " + weapon + " does how much damage? /n 1-100")
 
-alert("You do " + damage + " Holy damage per hit"
+alert("You do " + damage + " Holy damage per hit")
 
 if(damage < 50){
 	console.log("It will take you a while to kill any thing")
 }else{
 	console.log("Oh look a heavy hitter")
+}
 	
