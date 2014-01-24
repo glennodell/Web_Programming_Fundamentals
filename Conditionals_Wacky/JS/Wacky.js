@@ -33,3 +33,15 @@ if(damage <= 50){
 }else{
 	console.log("Oh look a heavy hitter")
 }
+
+var hitPoints = prompt("Your health \n 1-200")
+
+var AC = prompt("Armor rating \n 1-50")
+
+console.log("Your heath is " + hitPoints + " and your armor is " + AC + ".")
+
+var total =[hitPoints, AC]
+
+var maxHealth = total[0] + "total[1]"
+
+console.log("with your armor you have a maximun of " + maxHealth + " health.")
