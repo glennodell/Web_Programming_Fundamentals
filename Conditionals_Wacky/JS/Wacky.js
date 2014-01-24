@@ -45,3 +45,11 @@ if(Enemy == "Skeleton" && weapon == "warhammer"){
 if(Enemy == "zombie" && weapon == "Sword"){
 	console.log("Your sword does X2 damage")
 }
+
+var zombie = 400
+
+var skeleton = 300
+
+var perHit = damage / Enemy
+
+console.log("perHit")
