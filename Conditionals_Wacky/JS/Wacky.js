@@ -36,13 +36,12 @@ if(damage <= 50){
 
 var hitPoints = prompt("Your health \n 1-200")
 
-var AC = prompt("Armor rating \n 1-50")
+console.log("Your heath is " + hitPoints + ".")
+var Enemy = prompt("Do you want to fight a skeleton or a zombie")
 
-console.log("Your heath is " + hitPoints + " and your armor is " + AC + ".")
-
-var total =[hitPoints, AC]
-
-var maxHealth = total[0] + total[1]
-
-console.log("with your armor you have a maximun of " + maxHealth + " health.")
-
+if(Enemy == "Skeleton" && weapon == "warhammer"){
+	console.log("Your warhammer does X2 damage")
+}
+if(Enemy == "zombie" && weapon == "Sword"){
+	console.log("Your sword does X2 damage")
+}
