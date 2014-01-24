@@ -42,6 +42,7 @@ console.log("Your heath is " + hitPoints + " and your armor is " + AC + ".")
 
 var total =[hitPoints, AC]
 
-var maxHealth = total[0] + "total[1]"
+var maxHealth = total[0] + total[1]
 
 console.log("with your armor you have a maximun of " + maxHealth + " health.")
+
