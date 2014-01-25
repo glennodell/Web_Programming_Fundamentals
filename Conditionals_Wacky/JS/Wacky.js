@@ -72,10 +72,10 @@ var zombieHit = 75
  var zombieDamage = hitPoints / zombieHit
 // how you attack 
 if(weapon == "sword"){
-	 console.log("you slash at you " + Enemy + " with your sword for " + damage + ".")
+	 console.log("you slash at you " + Enemy + " with your sword for " + damage + " damage.")
 }
 if(weapon == "warhammer"){
-	console.log("you smash your " + Enemy + " with your warhammer for " + damage + ".")
+	console.log("you smash your " + Enemy + " with your warhammer for " + damage + " damage.")
 }
 // the end of the game
 if(Enemy == "zombie"){
