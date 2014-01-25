@@ -52,23 +52,23 @@ console.log("Your heath is " + hitPoints + ".")
 
 var Enemy = prompt("Do you want to fight a skeleton or a zombie")
 
+if(Enemy ==""){
+	alert("if you didnt want to fight a monster then why are you playing the game")
+}
+if(Enemy == "skeleton"){
+	alert("The Skeleton has 300 hit points")
+	}
+if(Enemy == "zombie"){
+	alert("the zombie has 500 health")
+}
 var skeleton = 300
 var skeletonHit = 50
 
 var zombie = 500
 var zombieHit = 75
 
-//how the damage effects the enemies
 
-if(Enemy ==""){
-	alert("if you didnt want to fight a monster then why are you playing the game")
-}
-if(Enemy == "Skeleton"){
-	alert("The Skeleton has 300 hit points")
-	}
-if(Enemy == "zombie"){
-	alert("the zombie has 500 health")
-}
+
 // skeleton and zombie fighting
  var skeletonLife = skeleton / damage
  var skeletonDamage = skeletonHit / hitPoints
