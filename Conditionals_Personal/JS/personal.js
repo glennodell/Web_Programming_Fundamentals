@@ -32,3 +32,19 @@ if(people == ""){
 	alert("well that is going to be a very lonely potluck")
 }
 (people <= 10) ? console.log("so its only gonna me " + people + " that wont be that expensive to buy the stuff") : console.log("wow with " + people + ", this might be expensive")
+
+//calculate how much it will cost with the numer of people
+
+var chipCost = people / 3 * chips
+
+var veggiCost = people / 6 * veggieTray
+
+var bagsofChips = people / 3
+
+var traysofVeggie = people / 6
+
+if(Item == chips){
+	console.log("with " + people + " people there you will need and total of " + bagsofChips + " and the cost of chips being " + chips + " you will have to spend a total of " + chipCost + " for the potluck.")
+}else{
+	console.log("with " + people + " people there and the cost of chips being " + veggieTray + " you will have to spend a total of " + veggiCost + " for the potluck.")
+}
