@@ -28,3 +28,7 @@ var veggieTray = 3.99
 
 var people = prompt("how many people are attending")
 
+if(people == ""){
+	alert("well that is going to be a very lonely potluck")
+}
+(people <= 10) ? console.log("so its only gonna me " + people + " that wont be that expensive to buy the stuff") : ("wow with " + people + ", this might be expensive")
