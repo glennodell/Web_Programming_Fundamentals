@@ -2,6 +2,7 @@
 
 // Glenn O'Dell	1/23/2104 Conditionals_Wacky
 
+//player needs to pick a weapon
 
 var weapon = prompt("Do you use a sword or a warhammer?");
 
@@ -21,9 +22,18 @@ if(weapon == "warhammer"){
 	
 	}
 	
+// having the user enter an amount for damage
+	
 var damage = prompt("your " + weapon + " does how much damage? \n 1-100")
-
+if(damage == ""){
+	alert("if you dont do any damage then your not going to make it very far")
+}
+// letting the player know what kind of damage and how much they will be doing
+if(damage == ""){
+	alert("you do nothing... You stand there and do nothing.")
+}else{
 alert("You do " + damage + " Holy damage per hit")
+}
 
 if(damage == 100){
 	alert("Really think you're a big man now huh...... Cheater")
@@ -50,6 +60,3 @@ if(Enemy == "Skeleton" && weapon == "warhammer"){
 if(Enemy == "zombie" && weapon == "Sword"){
 	console.log("Your sword does X2 damage")
 }
-
-
-
