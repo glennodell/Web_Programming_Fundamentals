@@ -43,16 +43,30 @@ if(damage <= 50){
 }else{
 	console.log("Oh look a heavy hitter")
 }
-
+// have the player pick there health
 var hitPoints = prompt("Your health \n 1-200")
 
 console.log("Your heath is " + hitPoints + ".")
 
+// picking their enemy and also letting the player know how much health each has.
+
 var Enemy = prompt("Do you want to fight a skeleton or a zombie")
 
+var skeleton = 300
+
+var zombie = 500
+
+//how the damage effects the enemies
+
+if(Enemy ==""){
+	alert("if you didnt want to fight a monster then why are you playing the game")
+}
 if(Enemy == "Skeleton"){
 	console.log("The Skeleton has 300 hit points")
-	} 
+	}
+if(Enemy == "zombie"){
+	alert("the zombie has 500 health")
+}
 if(Enemy == "Skeleton" && weapon == "warhammer"){
 	console.log("Your warhammer does X2 damage")
 }
