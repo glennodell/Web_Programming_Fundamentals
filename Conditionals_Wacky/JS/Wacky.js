@@ -38,11 +38,8 @@ alert("You do " + damage + " Holy damage per hit")
 if(damage == 100){
 	alert("Really think you're a big man now huh...... Cheater")
 	}
-if(damage <= 50){
-	console.log("It will take you a while to kill any thing")
-}else{
-	console.log("Oh look a heavy hitter")
-}
+(damage <= 50) ? console.log("It will take you a while to kill any thing") : console.log("Oh look a heavy hitter")
+
 // have the player pick there health
 var hitPoints = prompt("Your health \n 1-200")
 
@@ -56,10 +53,10 @@ if(Enemy ==""){
 	alert("if you didnt want to fight a monster then why are you playing the game")
 }
 if(Enemy == "skeleton"){
-	alert("The Skeleton has 300 hit points")
+	alert("The Skeleton has 300 hit points and attack for 50 damage.")
 	}
 if(Enemy == "zombie"){
-	alert("the zombie has 500 health")
+	alert("the zombie has 500 health and attack for 75 damage.")
 }
 var skeleton = 300
 var skeletonHit = 50
@@ -67,17 +64,24 @@ var skeletonHit = 50
 var zombie = 500
 var zombieHit = 75
 
-
-
 // skeleton and zombie fighting
  var skeletonLife = skeleton / damage
- var skeletonDamage = skeletonHit / hitPoints
+ var skeletonDamage = hitPoints / skeletonHit
  
  var zombieLife = zombie / damage
- var zombieDamage = zombieHit / hitPoints
+ var zombieDamage = hitPoints / zombieHit
+// how you attack 
+if(weapon == "sword"){
+	 console.log("you slash at you " + Enemy + " with your sword for " + damage + ".")
+}
+if(weapon == "warhammer"){
+	console.log("you smash your " + Enemy + " with your warhammer for " + damage + ".")
+}
+// the end of the game
 if(Enemy == "zombie"){
 	console.log("it will take you " + zombieLife + " to kill it or " + zombieDamage + " for it to kill you")
 }
 if(Enemy == "skeleton"){
 	console.log("it will take you " + skeletonLife + " to kill it or " + skeletonDamage + " for it to kill you")
 }
+alert("thanks for playing hit refresh and try something new")
