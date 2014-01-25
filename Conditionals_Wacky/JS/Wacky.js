@@ -53,8 +53,10 @@ console.log("Your heath is " + hitPoints + ".")
 var Enemy = prompt("Do you want to fight a skeleton or a zombie")
 
 var skeleton = 300
+var skeletonHit = 50
 
 var zombie = 500
+var zombieHit = 75
 
 //how the damage effects the enemies
 
@@ -62,15 +64,20 @@ if(Enemy ==""){
 	alert("if you didnt want to fight a monster then why are you playing the game")
 }
 if(Enemy == "Skeleton"){
-	console.log("The Skeleton has 300 hit points")
+	alert("The Skeleton has 300 hit points")
 	}
 if(Enemy == "zombie"){
 	alert("the zombie has 500 health")
 }
-if(Enemy == "Skeleton" && weapon == "warhammer"){
-	console.log("Your warhammer does X2 damage")
+// skeleton and zombie fighting
+ var skeletonLife = skeleton / damage
+ var skeletonDamage = skeletonHit / hitPoints
+ 
+ var zombieLife = zombie / damage
+ var zombieDamage = zombieHit / hitPoints
+if(Enemy == "zombie"){
+	console.log("it will take you " + zombieLife + " to kill it or " + zombieDamage + " for it to kill you")
 }
-
-if(Enemy == "zombie" && weapon == "Sword"){
-	console.log("Your sword does X2 damage")
+if(Enemy == "skeleton"){
+	console.log("it will take you " + skeletonLife + " to kill it or " + skeletonDamage + " for it to kill you")
 }
