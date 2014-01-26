@@ -43,7 +43,7 @@ var bagsofChips = people / 3
 
 var traysofVeggie = people / 6
 
-if(Item == chips){
+if(Item == "chips"){
 	console.log("with " + people + " people there you will need and total of " + bagsofChips + " bags of chips and the cost of chips being " + chips + " you will have to spend a total of " + chipCost + " for the potluck.")
 }else{
 	console.log("with " + people + " people there you will need a total of " + traysofVeggie + " veggie trays and the cost of veggie trays being " + veggieTray + " you will have to spend a total of " + veggiCost + " for the potluck.")
