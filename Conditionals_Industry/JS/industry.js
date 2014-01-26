@@ -22,6 +22,15 @@ if(projector == "panasonic"){
 var canon = 2000
 
 var panasonic = 4000
+// calculate how many hours the projector lamp can still be used
 
 var hoursUsed = prompt("how many hours did the " + projector + " have one it?")
 
+if(projector == "canon" && hoursUsed >= canon){
+	console.log("check inventory to see if you can replace canon 7585 lamp")
+}
+if(proector == "panasonic" && hoursUsed >= panasonic){
+	console.log("check inventory to see if you can replace the 60-AW lamp")
+}
+
+// need to to check the inventory
