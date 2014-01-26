@@ -33,7 +33,7 @@ if(people == ""){
 }
 (people <= 10) ? console.log("so its only gonna me " + people + " that wont be that expensive to buy the stuff") : console.log("wow with " + people + ", this might be expensive")
 
-//calculate how much it will cost with the numer of people
+//calculate how much it will cost with the numer of people and how many of each will be needed.
 
 var chipCost = people / 3 * chips
 
