@@ -28,9 +28,19 @@ var hoursUsed = prompt("how many hours did the " + projector + " have one it?")
 
 if(projector == "canon" && hoursUsed >= canon){
 	console.log("check inventory to see if you can replace canon 7585 lamp")
+}else{
+	console.log("do not replace the lamp go on to the next room")
 }
-if(proector == "panasonic" && hoursUsed >= panasonic){
+if(projector == "panasonic" && hoursUsed >= panasonic){
 	console.log("check inventory to see if you can replace the 60-AW lamp")
+}else{
+	console.log("do not replace the lamp go on to the next room")
 }
 
-// need to to check the inventory
+
+// need to to check the inventory if there is less than 5 we wait unless the lamp is at its shelf life
+
+
+var inventory = prompt("How many " + projector + " lamps do we have in the inventory?")
+// not sure why but my web browser (Chrome) will not accept this I see nothing wrong with this next line of code. if i write it as and if else it works just fine
+(inventory <= 5) ? console.log("do not replace unless classroom needs to be used today") : console.log("replace the lamp")
