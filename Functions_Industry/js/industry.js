@@ -40,6 +40,6 @@ java()
 
 var time = prompt("how many days till the site has to be up and running")
 
-var average = page / time
+var average = pages / time
 
 console.log("you need to complete a total number of " + average + " pages a day to complete your project on time.");
