@@ -2,17 +2,11 @@
 
 //Glenn O'Dell 1/28/2014 functions_indrusrty
 
-// I want to make a script the shows how often you change out lamps vs how many time you deal with a users issue
+// when building a website as part of a team how the work load need to be balanced
 
-var lamps = prompt("How many lamps do you change out this week?");
+var people = prompt("how many people are on your team");
 
-var users = prompt("how many users do you assist this week?");
+var pages = prompt("how many pages are required to complete the web site to the customers standards");
 
-var total = function(lamps, users){
-	var sum = lamps + users;
-	return(sum);
-}
+(people < pages) ? console.log("well everyone needs to be doing more than one page for sure") : console.log("Well it looks like this will be easier with more people than pages")
 
-var workorders = total(lamps, users);
-
-console.log("you have gone on a total of " + workorders + " this week.")
