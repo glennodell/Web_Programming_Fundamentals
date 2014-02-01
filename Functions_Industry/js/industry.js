@@ -8,5 +8,11 @@ var people = prompt("how many people are on your team");
 
 var pages = prompt("how many pages are required to complete the web site to the customers standards");
 
-(people < pages) ? console.log("well everyone needs to be doing more than one page for sure") : console.log("Well it looks like this will be easier with more people than pages")
+(people < pages) ? console.log("well everyone needs to be doing more than one page for sure") : console.log("Well it looks like this will be easier with more people than pages");
 
+var average = function(people , pages){
+	var total = pages / people
+	return total
+}
+
+console.log(average);
