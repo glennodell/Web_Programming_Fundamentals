@@ -26,7 +26,7 @@ var js = prompt("does the customer want a lot of javascript");
 
 if(js = "yes"){
 	function java(){
-		if(people >= 10){
+		if(people <= 10){
 			var sum = people - 2
 			console.log("you need to make 2 people do all the Javascript, you now have " + sum + " people working on the site.")
 		}else{
@@ -43,3 +43,5 @@ var time = prompt("how many days till the site has to be up and running")
 var average = pages / time
 
 console.log("you need to complete a total number of " + average + " pages a day to complete your project on time.");
+
+alert("your team of " + people + " have " + time + " days to finish your project. good luck on the " + average + " pages a day")
