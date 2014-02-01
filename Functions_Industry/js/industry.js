@@ -20,16 +20,26 @@ function average(people , pages){
 }
 
 average(people, pages)
+// do they want java script
 
 var js = prompt("does the customer want a lot of javascript");
 
-if(js = yes){
-	var java = function(){
+if(js = "yes"){
+	function java(){
 		if(people >= 10){
-			console.log("you need to make 2 people do all the Javascript")
+			var sum = people - 2
+			console.log("you need to make 2 people do all the Javascript, you now have " + sum + " people working on the site.")
 		}else{
-			console.log("you need to make 5 people do all the Javascript")
+			var sum = people - 5
+			console.log("you need to make 5 people do all the Javascript, now have " + sum + " people working on the site")
 		}
 	}
 }
 
+java()
+
+var time = prompt("how many days till the site has to be up and running")
+
+var average = page / time
+
+console.log("you need to complete a total number of " + average + " pages a day to complete your project on time.");
