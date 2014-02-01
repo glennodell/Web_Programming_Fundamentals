@@ -29,7 +29,8 @@ if(js = "yes"){
 		if(people <= 10){
 			var sum = people - 2
 			console.log("you need to make 2 people do all the Javascript, you now have " + sum + " people working on the site.")
-		}else{
+		}
+		if(people >= 11){
 			var sum = people - 5
 			console.log("you need to make 5 people do all the Javascript, now have " + sum + " people working on the site")
 		}
